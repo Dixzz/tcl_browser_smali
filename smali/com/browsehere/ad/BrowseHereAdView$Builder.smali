@@ -48,23 +48,10 @@
 # virtual methods
 
 .method public final build()Lcom/browsehere/ad/BrowseHereAdView;
-    .locals 2
+  .locals 1
 
     .line 1
-    new-instance v0, Lcom/browsehere/ad/BrowseHereAdView;
-
-    iget-object v1, p0, Lcom/browsehere/ad/BrowseHereAdView$Builder;->context:Landroid/content/Context;
-
-    invoke-direct {v0, v1, p0}, Lcom/browsehere/ad/BrowseHereAdView;-><init>(Landroid/content/Context;Lcom/browsehere/ad/BrowseHereAdView$Builder;)V
-
-    const/4 v1, 0x0
-
-    .line 2
-    invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
-
-    .line 3
-    invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCancelable(Z)V
-
+    const/4 v0, 0x0
     return-object v0
 .end method
 
