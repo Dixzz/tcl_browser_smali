@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/portal_home_dialog_common_bg" android:layout_width="@dimen/dimen_800" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/delete_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_64" android:layout_marginTop="@dimen/dimen_125" android:layout_marginRight="@dimen/dimen_64" android:layout_marginBottom="@dimen/dimen_132" android:text="@string/portal_home_subscribe_remove_toast" android:layout_marginHorizontal="@dimen/dimen_64" style="@style/Text_Body2_Normal" />
+        <com.tcl.uicompat.TCLButton android:textSize="16.0sp" android:id="@id/btn_delete" android:background="@drawable/portal_home_dialog_btn_selector" android:layout_width="@dimen/dimen_320" android:layout_height="@dimen/dimen_96" android:layout_marginBottom="@dimen/dimen_62" android:text="@string/portal_home_recycle_btn_delete" android:layout_below="@id/delete_tip" android:layout_marginStart="@dimen/dimen_64" style="@style/Button_Middle" />
+        <com.tcl.uicompat.TCLButton android:textSize="16.0sp" android:id="@id/btn_cancel" android:background="@drawable/portal_home_dialog_btn_selector" android:layout_width="@dimen/dimen_320" android:layout_height="@dimen/dimen_96" android:text="@string/portal_browser_btn_cancel" android:layout_below="@id/delete_tip" android:layout_marginEnd="@dimen/dimen_64" android:layout_alignParentEnd="true" style="@style/Button_Middle" />
+    </RelativeLayout>
+</FrameLayout>

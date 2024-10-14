@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tcl.uicompat.util.ShadowContainer android:id="@id/shadow_container_id" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ElementContainerCornerRadius="?element_tcl_corners_size" app:ElementContainerDeltaLength="@dimen/element_edit_text_error_shadow_width" app:ElementContainerShadowColor="?element_tcl_edit_text_shadow_color" app:ElementContainerShadowRadius="@dimen/element_edit_text_error_shadow_width">
+            <View android:background="@drawable/element_edit_text_shadow_view" android:layout_width="@dimen/element_edit_text_width" android:layout_height="@dimen/element_edit_text_height" />
+        </com.tcl.uicompat.util.ShadowContainer>
+        <com.tcl.uicompat.TCLEditText android:id="@id/et_element_tips_red" android:layout_width="@dimen/element_edit_text_width" android:layout_height="@dimen/element_edit_text_height" android:layout_marginLeft="@dimen/element_edit_text_error_shadow_width" android:layout_marginTop="@dimen/element_edit_text_error_shadow_width" android:layout_marginStart="@dimen/element_edit_text_error_shadow_width" style="@style/NormalEditText" />
+    </FrameLayout>
+    <include android:id="@id/element_layout_id_tips_red" android:visibility="invisible" android:layout_width="@dimen/element_tips_text_max_width_two_lines" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/element_tips_text_distance" android:layout_marginStart="@dimen/element_tips_text_distance" layout="@layout/element_layout_tips_red" />
+</LinearLayout>

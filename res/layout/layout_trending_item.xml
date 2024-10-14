@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout android:layout_width="@dimen/dimen_234" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen_40" app:border_circle_radius="@dimen/dimen_12" app:glow_type="round_border" app:need_border="true" app:need_child_view_size="true" app:scale_anim_end_value="1.04"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/card_poster" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_340" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/dimen_24" android:textColor="#b3ffffff" android:ellipsize="end" android:id="@id/card_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16" android:maxLines="2" android:layout_below="@id/card_poster" />
+</com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout>

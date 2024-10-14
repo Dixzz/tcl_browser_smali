@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/book_mark" android:tag="layout/activity_browse_history_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tcl.uicompat.TCLTextView android:id="@id/portal_home_recycle_view_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_72" android:layout_marginBottom="@dimen/dimen_30" android:text="@string/portal_home_history_title" android:layout_marginStart="@dimen/dimen_116" style="@style/Text_H1_Normal" />
+    <com.tcl.uicompat.TCLButton android:textSize="@dimen/dimen_26" android:gravity="center" android:id="@id/portal_home_btn_delete" android:background="@drawable/bg_round_corner_button" android:nextFocusLeft="@id/portal_home_recycle_view_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_80" android:text="@string/portal_home_recycle_btn_delete_all" android:drawablePadding="@dimen/element_icon_middle_button_margin_right" android:layout_marginEnd="@dimen/dimen_116" android:layout_alignParentEnd="true" style="@style/Button_Small" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/portal_home_recycle_view_tv_title">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/vg_list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_10" />
+    </FrameLayout>
+    <com.tcl.uicompat.TCLLoading android:id="@id/portal_loading_anim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/vs_empty_bookmark" android:visibility="gone" android:layout="@layout/layout_empty_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

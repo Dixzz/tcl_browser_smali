@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/portal_browse_web_container_root" android:tag="layout/activity_browse_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tcl.browser.portal.browse.view.VirtualCursorLayout android:id="@id/flVideoContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.00999999dip" />
+    <ViewStub android:id="@id/vs_scroll_middle" android:layout="@layout/layout_scroll_model_middle_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_120" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <com.tcl.browser.portal.browse.view.VirtualCursorLayout android:id="@id/cursor_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

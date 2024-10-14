@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/portal_home_search_recycle_item" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_40"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_channel_icon" android:layout_width="@dimen/dimen_72" android:layout_height="@dimen/dimen_72" android:layout_marginStart="@dimen/dimen_24" android:layout_marginEnd="@dimen/dimen_36">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_channel_item" android:layout_width="@dimen/dimen_40" android:layout_height="@dimen/dimen_40" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.tcl.uicompat.TCLTextView android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/tv_channel_content" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimen_320" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/Text_Body3_Medium_Normal" />
+</LinearLayout>

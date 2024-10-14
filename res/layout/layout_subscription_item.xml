@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_36"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/website_icon" android:layout_width="@dimen/dimen_40" android:layout_height="@dimen/dimen_40" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/dimen_12" />
+    <TextView android:textSize="@dimen/dimen_28" android:textColor="#b3ffffff" android:ellipsize="end" android:gravity="start|center" android:id="@id/website_name" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_40" android:maxWidth="@dimen/dimen_800" android:maxLines="1" android:layout_alignBottom="@id/website_icon" android:layout_toEndOf="@id/website_icon" />
+    <TextView android:textSize="@dimen/dimen_24" android:textColor="#e6ffffff" android:gravity="center_vertical" android:id="@id/btn_delete" android:background="@drawable/element_tcl_btn_background_select" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_40" android:text="@string/portal_home_subscribe_remove" android:drawablePadding="@dimen/dimen_4" android:paddingEnd="@dimen/dimen_10" android:layout_marginStart="@dimen/dimen_20" android:layout_toEndOf="@id/website_name" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/subscription_item_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16" android:layout_below="@id/website_icon" />
+</RelativeLayout>

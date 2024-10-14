@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tcl.uicompat.TCLTextView android:textColor="?element_tcl_navigation_item_text_color_select" android:id="@id/tv_element_navigation_item_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/Text_H3_Medium_Focus" />
+</merge>

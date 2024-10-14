@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:layout_width="@dimen/element_tcl_notice_large_icon_size" android:layout_height="@dimen/element_tcl_notice_large_icon_size" android:layout_marginTop="@dimen/element_tcl_notice_padding" android:layout_marginRight="@dimen/element_tcl_notice_middle_icon_margin_end" android:scaleType="fitCenter" />
+    <com.tcl.uicompat.TCLTextView android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_notice_padding" android:layout_marginRight="@dimen/element_tcl_notice_padding" android:maxLines="2" android:layout_toRightOf="@id/iv_icon" android:layout_marginEnd="@dimen/element_tcl_notice_padding" style="@style/Text_Body3_Medium_Focus" />
+    <com.tcl.uicompat.TCLTextView android:ellipsize="end" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_notice_content_margin_top" android:layout_marginRight="@dimen/element_tcl_notice_padding" android:maxLines="2" android:layout_below="@id/tv_title" android:layout_alignLeft="@id/tv_title" android:layout_marginEnd="@dimen/element_tcl_notice_padding" style="@style/Text_Body3_Normal" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tcl.uicompat.TCLTextView android:textColor="?element_tcl_btn_text_color_focus_select" android:gravity="center_vertical" android:id="@id/tv_content" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:ElementTypeface="Roboto_Medium" style="@style/Text_H3_Medium_Focus" />
+    <com.tcl.uicompat.TCLTextView android:textColor="?element_tcl_btn_text_color_select" android:gravity="center_vertical" android:id="@id/tv_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/Text_Body3_70" />
+</merge>

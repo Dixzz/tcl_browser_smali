@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/portal_browse_ua_dialog_bg" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_220"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tcl.uicompat.TCLButton android:id="@id/tb_continue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:text="@string/portal_browse_adblock_continue" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/dimen_50" android:layout_alignParentEnd="true" style="@style/Button_Middle" />
+    <com.tcl.uicompat.TCLButton android:id="@id/tb_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_20" android:text="@string/portal_home_dialog_btn_cancel" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/dimen_50" android:layout_alignParentEnd="true" style="@style/Button_Middle" />
+    <com.tcl.uicompat.TCLTextView android:gravity="start|center" android:id="@id/new_tab_tips" android:layout_width="@dimen/dimen_544" android:layout_height="wrap_content" android:text="@string/portal_browse_adblock_popup" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_50" android:layout_marginEnd="@dimen/dimen_80" android:layout_toStartOf="@id/tb_continue" style="@style/Text_Body1_Medium_Focus" />
+</RelativeLayout>

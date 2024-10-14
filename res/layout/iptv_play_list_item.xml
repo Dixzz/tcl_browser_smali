@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:descendantFocusability="beforeDescendants" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_96"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout android:id="@id/portal_home_book_mark_item" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/dimen_520" android:layout_height="wrap_content" android:paddingEnd="@dimen/dimen_24" app:glow_radius="@dimen/dimen_10" app:glow_type="button" app:need_border="false" app:need_child_view_size="false" app:scale_anim_end_value="1.04">
+        <ImageView android:id="@id/iv_ptv_icon" android:layout_width="@dimen/dimen_86" android:layout_height="@dimen/dimen_50" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_64" android:layout_alignParentStart="true" />
+        <com.tcl.uicompat.TCLTextView android:ellipsize="marquee" android:gravity="center" android:id="@id/tv_search_content" android:layout_width="@dimen/dimen_346" android:layout_height="fill_parent" android:singleLine="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="@dimen/dimen_16" android:layout_toEndOf="@id/iv_ptv_icon" style="@style/Text_Body1_Normal" />
+    </com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout>
+    <com.tcl.uicompat.TCLCardButton android:gravity="center" android:id="@id/portal_iptv_book_mark" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/dimen_112" android:layout_height="@dimen/dimen_96" android:layout_marginStart="@dimen/dimen_8" style="@style/CardButton_Small_Icon" />
+</LinearLayout>

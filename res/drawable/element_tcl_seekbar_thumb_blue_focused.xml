@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ff3782ff" />
+    <size android:height="@dimen/element_tcl_seekbar_thumb_height_width" android:width="@dimen/element_tcl_seekbar_thumb_height_width" />
+</shape>

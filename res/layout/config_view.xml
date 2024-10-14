@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/nub_height">
+        <RelativeLayout android:orientation="horizontal" android:padding="@dimen/padding_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_size">
+            <Spinner android:id="@id/object_spinner" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:popupBackground="@drawable/popbackground_spinner" android:layout_centerVertical="true" android:spinnerMode="dropdown" style="@style/Widget.MyTheme.HeaderBar.Spinner" />
+            <TextView android:typeface="monospace" android:textColor="@color/backgroundColor" android:gravity="center" android:id="@id/fps_view" android:background="@drawable/ic_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="FPS" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAlignment="center" />
+        </RelativeLayout>
+        <FrameLayout android:layout_gravity="center" android:background="@drawable/ic_grid" android:layout_width="312.0dip" android:layout_height="160.0dip">
+            <com.martinrgb.animer.monitor.shader.ShaderSurfaceView android:layout_gravity="center" android:id="@id/shader_surfaceview" android:layout_width="160.0dip" android:layout_height="160.0dip" />
+        </FrameLayout>
+        <RelativeLayout android:padding="@dimen/padding_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_size">
+            <Spinner android:id="@id/type_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_size" android:popupBackground="@drawable/popbackground_spinner" android:layout_centerVertical="true" android:dropDownWidth="wrap_content" android:spinnerMode="dropdown" style="@style/Widget.MyTheme.HeaderBar.Spinner" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom|center" android:id="@id/nub" android:background="@drawable/ic_nub2" android:layout_width="112.0dip" android:layout_height="@dimen/nub_height" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_ua_option_list" android:background="@drawable/portal_browse_ua_dialog_bg" android:clipToPadding="false" android:layout_width="@dimen/dimen_1048" android:layout_height="@dimen/dimen_708" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:id="@id/ua_setting_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_48" android:text="@string/portal_browse_ua_title" android:textAllCaps="false" android:layout_marginStart="@dimen/dimen_64" style="@style/Text_H3_Medium_Normal" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ua_switch_recyclerview" android:paddingTop="@dimen/dimen_40" android:paddingBottom="@dimen/dimen_4" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_64" android:paddingEnd="@dimen/dimen_64" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_ua_qrcode" android:background="@drawable/portal_browse_ua_qrcode_bg" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_42" android:layout_toEndOf="@id/layout_ua_option_list">
+        <ImageView android:id="@id/ua_edit_qr_code" android:layout_width="@dimen/dimen_216" android:layout_height="@dimen/dimen_216" android:layout_marginLeft="@dimen/dimen_28" android:layout_marginTop="@dimen/dimen_28" android:layout_marginRight="@dimen/dimen_28" android:layout_marginHorizontal="@dimen/dimen_28" />
+        <TextView android:textSize="14.0sp" android:textColor="#b3ffffff" android:ellipsize="end" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_8" android:layout_marginTop="@dimen/dimen_4" android:layout_marginRight="@dimen/dimen_8" android:layout_marginBottom="@dimen/dimen_8" android:text="@string/portal_browse_ua_qrcode_tip" android:maxLines="2" android:layout_marginHorizontal="@dimen/dimen_8" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/portal_iptv_dimen_65"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/portal_iptv_dimen_65">
+        <com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout android:id="@id/portal_home_search_recycle_item" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="640.0dip" android:layout_height="@dimen/portal_iptv_dimen_64" app:glow_radius="@dimen/portal_iptv_dimen_7" app:glow_type="button" app:need_border="false" app:need_child_view_size="false" app:scale_anim_end_value="1.04">
+            <ImageView android:id="@id/portal_iptv_iv_fragment_app_logo" android:layout_width="@dimen/portal_iptv_dimen_33" android:layout_height="@dimen/portal_iptv_dimen_33" android:src="@drawable/portal_iptv_search_item_logo_normal" android:layout_centerVertical="true" android:alpha="0.7" android:layout_marginStart="@dimen/portal_iptv_dimen_27" android:layout_alignParentStart="true" />
+            <com.tcl.uicompat.TCLTextView android:textSize="18.0sp" android:ellipsize="end" android:id="@id/portal_iptv_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/portal_iptv_dimen_76" android:layout_toEndOf="@id/portal_iptv_iv_app_logo" style="@style/Text_Body2_Normal" />
+        </com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/portal_iptv_fl_fragment_bookmarks" android:background="@drawable/portal_iptv_bookmark_circle_bg" android:focusable="true" android:layout_width="@dimen/portal_iptv_dimen_40" android:layout_height="@dimen/portal_iptv_dimen_40" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/portal_iptv_dimen_15" android:layout_alignParentEnd="true">
+            <ImageView android:layout_gravity="center" android:id="@id/portal_iptv_iv_fragment_bookmarks" android:layout_width="@dimen/portal_iptv_dimen_20" android:layout_height="@dimen/portal_iptv_dimen_20" android:src="@drawable/portal_iptv_unselect_normal" />
+        </FrameLayout>
+    </RelativeLayout>
+    <View android:id="@id/portal_iptv_line" android:background="@color/portal_iptv_item_line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/portal_iptv_dimen_1" />
+</LinearLayout>

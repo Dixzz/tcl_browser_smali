@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.uicompat.TCLTextView android:ellipsize="end" android:id="@id/tv_addition_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_notice_help_info_margin_top" android:layout_marginRight="@dimen/element_tcl_notice_padding" android:singleLine="true" android:layout_marginEnd="@dimen/element_tcl_notice_padding" style="@style/Text_Small1_Weak"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

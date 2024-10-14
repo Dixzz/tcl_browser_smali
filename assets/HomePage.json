@@ -1,0 +1,71 @@
+{
+  "browserRecommends": [
+    {
+      "recomItems": [
+        {
+          "itemName": "Google",
+          "website": "https://www.google.com/",
+          "zone": "",
+          "icon": "https://www.google.com/favicon.ico",
+          "id": -1,
+          "recomId": "-1",
+          "order": 1,
+          "bottomPhoto": "R.drawable.google",
+          "playType": 2
+        },
+        {
+          "itemName": "YouTube",
+          "website": "https://www.youtube.com/",
+          "zone": "",
+          "icon": "https://www.youtube.com/favicon.ico",
+          "id": -2,
+          "recomId": "-1",
+          "order": 2,
+          "bottomPhoto": "R.drawable.youtube",
+          "playType": 2
+        },
+        {
+          "itemName": "Crunchyroll",
+          "website": "https://www.crunchyroll.com/videos/anime",
+          "zone": "",
+          "icon": "https://www.crunchyroll.com/favicons/favicon-32x32.png",
+          "id": -3,
+          "recomId": "-1",
+          "order": 3,
+          "bottomPhoto": "R.drawable.crunchyroll",
+          "playType": 2
+        },
+        {
+          "itemName": "IGN",
+          "website": "https://www.ign.com/videos",
+          "zone": "",
+          "icon": "https://kraken.ignimgs.com/favicon.ico",
+          "id": -4,
+          "recomId": "-1",
+          "order": 4,
+          "bottomPhoto": "R.drawable.ign",
+          "playType": 2
+        },
+        {
+          "itemName": "PLEX",
+          "website": "https://app.plex.tv/desktop/#!/",
+          "zone": "",
+          "icon": "https://app.plex.tv/desktop/favicon.ico",
+          "id": -5,
+          "recomId": "-1",
+          "order": 5,
+          "bottomPhoto": "R.drawable.plex",
+          "playType": 2
+        }
+      ],
+      "name": "Recommend",
+      "remark": " ",
+      "id": -1,
+      "title": "Recommend",
+      "order": 1,
+      "showTitle": 1
+    }
+  ],
+  "tCastQrCode": "",
+  "h5QrCode": ""
+}

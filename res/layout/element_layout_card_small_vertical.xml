@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_icon_small_vertical" android:duplicateParentState="true" android:layout_width="@dimen/element_tcl_card_small_size_icon_size" android:layout_height="@dimen/element_tcl_card_small_size_icon_size" android:layout_marginTop="@dimen/element_tcl_card_small_vertical_icon_margin_top" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+    <com.tcl.uicompat.TCLTextView android:textColor="@color/element_btn_text_color_select" android:ellipsize="marquee" android:id="@id/tv_title_small_vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_card_small_vertical_title_margin_top" android:singleLine="true" android:layout_below="@id/iv_icon_small_vertical" android:layout_centerHorizontal="true" app:ElementNeedTextGradient="true" app:ElementTextBoldOnFocus="false" style="@style/Text_Body3_70" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="vertical" android:tag="layout/activity_guide_download_mc_0" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/portal_home_iv_share_main" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="160.0dip" android:layout_marginStart="@dimen/portal_home_dimen_60">
+        <com.tcl.uicompat.TCLTextView android:id="@id/tv_title" android:layout_width="@dimen/dimen_360" android:layout_height="wrap_content" android:maxLines="2" style="@style/Text_H2_Medium_Normal" />
+        <com.tcl.uicompat.TCLButton android:id="@id/tb_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/portal_home_dimen_90" android:text="@string/portal_browse_btn_next" style="@style/Button_Large" />
+    </LinearLayout>
+</FrameLayout>

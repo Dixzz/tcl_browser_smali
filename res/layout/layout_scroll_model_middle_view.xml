@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_scroll_model" android:tag="layout/layout_scroll_model_middle_view_0" android:background="@drawable/scroll_model_bg" android:padding="@dimen/dimen_4" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_page_up" android:focusable="true" android:clickable="true" android:layout_width="@dimen/dimen_80" android:layout_height="@dimen/dimen_80" android:src="@drawable/arrow_up_normal" android:scaleType="fitXY" />
+    <ImageView android:id="@id/iv_page_down" android:focusable="true" android:clickable="true" android:layout_width="@dimen/dimen_80" android:layout_height="@dimen/dimen_80" android:layout_marginTop="@dimen/dimen_8" android:src="@drawable/arrow_down_focus" android:scaleType="fitXY" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:id="@id/rv_recommend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/portal_browser_channel_like" style="@style/Text_Body3_Normal" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_recommend" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_280" android:layout_marginTop="@dimen/dimen_16" android:paddingEnd="@dimen/dimen_40" />
+</LinearLayout>

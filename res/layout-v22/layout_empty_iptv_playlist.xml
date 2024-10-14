@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/dimen_840" android:layout_height="@dimen/dimen_540" android:src="@drawable/img_empty_iptv_playlist" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/dimen_36" android:textColor="#b3ffffff" android:id="@id/tv_empty_playlist_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_393" android:text="@string/portal_iptv_empty_playlist_tip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/dimen_32" android:textColor="#e6000000" android:id="@id/btn_add_playlist" android:background="@drawable/bg_add_playlist_selector" android:paddingLeft="@dimen/dimen_72" android:paddingTop="@dimen/dimen_24" android:paddingRight="@dimen/dimen_72" android:paddingBottom="@dimen/dimen_24" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_64" android:text="@string/portal_iptv_add_playlist_tips" android:layout_below="@id/tv_empty_playlist_tip" android:layout_centerHorizontal="true" android:paddingHorizontal="@dimen/dimen_72" android:paddingVertical="@dimen/dimen_24" />
+</RelativeLayout>

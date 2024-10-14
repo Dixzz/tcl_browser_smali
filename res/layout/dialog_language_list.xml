@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_option_list" android:background="@drawable/portal_browse_ua_dialog_bg" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:id="@id/setting_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_48" android:text="@string/portal_browse_language_title" android:textAllCaps="false" android:layout_marginStart="@dimen/dimen_64" style="@style/Text_H3_Medium_Normal" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/switch_recyclerview" android:paddingTop="@dimen/dimen_40" android:paddingBottom="@dimen/dimen_4" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_40" android:paddingStart="@dimen/dimen_64" android:paddingEnd="@dimen/dimen_64" />
+</LinearLayout>

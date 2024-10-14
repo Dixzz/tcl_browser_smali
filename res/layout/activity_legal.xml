@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="@dimen/dimen_1804" android:layout_height="@dimen/dimen_1080">
+        <com.tcl.uicompat.TCLTextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_80" android:text="@string/portal_home_setting_legal" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text_H2_Medium_Normal" />
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="@dimen/dimen_1112" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_80" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title">
+            <com.tcl.uicompat.TCLItemLarge android:id="@id/portal_home_legal_item_terms" android:layout_height="@dimen/dimen_120" app:ElementRightIcon="?element_tcl_icon_arrow_right" app:ElementTitle="@string/portal_home_legal_terms" style="@style/ElementItemLarge" />
+            <com.tcl.uicompat.TCLItemLarge android:id="@id/portal_home_legal_item_privacy" android:layout_height="@dimen/dimen_120" app:ElementRightIcon="?element_tcl_icon_arrow_right" app:ElementTitle="@string/portal_home_legal_privacy" style="@style/ElementItemLarge" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

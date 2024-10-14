@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/element_check_box_size" android:width="@dimen/element_check_box_size" />
+    <gradient android:startColor="@color/element_tcl_check_box_ui4_unselected_focus_gradient_start" android:endColor="@color/element_tcl_check_box_ui4_unselected_focus_gradient_end" android:angle="90.0" android:type="linear" />
+    <corners android:radius="@dimen/element_check_box_corner_size" />
+</shape>

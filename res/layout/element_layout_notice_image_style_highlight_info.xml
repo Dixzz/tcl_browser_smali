@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.uicompat.TCLTextView android:textColor="@color/element_color_warning1" android:ellipsize="end" android:id="@id/tv_highlight_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_notice_highlight_text_margin_top" android:singleLine="true" android:layout_alignParentLeft="true" style="@style/Text_Body3_Medium_Normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

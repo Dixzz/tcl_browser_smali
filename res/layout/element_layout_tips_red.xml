@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/element_tips_text_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/element_tips_icon_red" android:layout_height="@dimen/element_tips_icon_red" app:srcCompat="@drawable/element_ic_icon_tips_red" />
+    <com.tcl.uicompat.TCLTextView android:textColor="@color/element_edit_error_tips_text_color" android:id="@id/tv_element_tips_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/element_tips_text_distance" android:maxLines="2" android:layout_marginStart="@dimen/element_tips_text_distance" style="@style/Text_Small1_Medium_Normal" />
+</LinearLayout>

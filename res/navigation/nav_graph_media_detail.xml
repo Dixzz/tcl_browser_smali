@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_media_detail" app:startDestination="@id/seriesDetailFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="fragment_series_detail" android:name="com.tcl.browser.portal.browse.fragment.SeriesDetailFragment" android:id="@id/seriesDetailFragment">
+        <action android:id="@id/action_seriesDetailFragment_to_movieDetailFragment" app:destination="@id/movieDetailFragment" />
+    </fragment>
+    <fragment android:label="fragment_movie_detail" android:name="com.tcl.browser.portal.browse.fragment.MovieDetailFragment" android:id="@id/movieDetailFragment">
+        <action android:id="@id/action_movieDetailFragment_to_seriesDetailFragment" app:destination="@id/seriesDetailFragment" />
+    </fragment>
+</navigation>

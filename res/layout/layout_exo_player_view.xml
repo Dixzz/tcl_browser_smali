@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.browser.portal.home.ima.ImaPlayerView android:id="@id/player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" app:keep_content_on_player_reset="false" app:player_layout_id="@layout/layout_styled_exo_player_view" app:resize_mode="fit" app:surface_type="surface_view" app:use_controller="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_switch_iptv" android:tag="layout/layout_iptv_switch_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_previous" android:focusable="true" android:layout_width="@dimen/dimen_48" android:layout_height="@dimen/dimen_48" android:layout_marginBottom="@dimen/dimen_8" android:src="@drawable/ic_arrow_up_focus" android:scaleType="centerCrop" android:layout_marginStart="@dimen/dimen_63" />
+    <RelativeLayout android:background="@drawable/switch_iptv_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_106" android:layout_marginStart="@dimen/dimen_116" android:layout_marginEnd="@dimen/dimen_116">
+        <ImageView android:id="@id/iv_media" android:layout_width="@dimen/dimen_120" android:layout_height="@dimen/dimen_72" android:src="@drawable/tu" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_63" />
+        <com.tcl.uicompat.TCLTextView android:textSize="48.0px" android:typeface="monospace" android:textColor="@color/element_primary_white_90" android:gravity="center" android:id="@id/portal_media_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="@dimen/dimen_22" android:layout_marginEnd="@dimen/dimen_63" android:layout_toEndOf="@id/iv_media" />
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_next" android:focusable="true" android:layout_width="@dimen/dimen_48" android:layout_height="@dimen/dimen_48" android:layout_marginTop="@dimen/dimen_8" android:src="@drawable/ic_arrow_down_normal" android:scaleType="centerCrop" android:layout_marginStart="@dimen/dimen_63" />
+</LinearLayout>

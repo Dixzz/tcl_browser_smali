@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/element_edit_text_shadow_background_color" />
+    <corners android:radius="?element_tcl_corners_size" />
+    <stroke android:width="@dimen/element_edit_text_stroke_width" android:color="?element_tcl_edit_text_background_stroke_focus_color" />
+</shape>

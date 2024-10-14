@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_setting_item_selector" android:focusableInTouchMode="true" android:layout_width="@dimen/dimen_1400" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_playlist_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/icon_file" android:background="@drawable/ic_file_normal" android:layout_width="@dimen/dimen_64" android:layout_height="@dimen/dimen_64" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_40" />
+        <TextView android:ellipsize="marquee" android:id="@id/iptv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_25" android:maxWidth="@dimen/dimen_900" android:singleLine="true" android:layout_marginStart="@dimen/dimen_24" android:layout_toEndOf="@id/icon_file" style="@style/Text_Body1_Normal" />
+        <TextView android:ellipsize="marquee" android:id="@id/iptv_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10" android:layout_marginBottom="@dimen/dimen_22" android:maxWidth="@dimen/dimen_900" android:singleLine="true" android:layout_below="@id/iptv_title" android:layout_alignStart="@id/iptv_title" style="@style/Text_Body3_Weak" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/btn_delete" android:background="@drawable/bg_delete_circle_selector" android:focusableInTouchMode="true" android:visibility="invisible" android:layout_width="@dimen/dimen_80" android:layout_height="@dimen/dimen_80" android:layout_marginLeft="@dimen/dimen_32" android:layout_marginRight="@dimen/dimen_32" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <View android:layout_gravity="center" android:id="@id/icon_delete" android:background="@drawable/ic_delete_normal" android:layout_width="@dimen/dimen_40" android:layout_height="@dimen/dimen_40" android:scaleType="centerCrop" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_notice_button_margin_top" android:layout_marginRight="@dimen/element_tcl_notice_padding" android:layout_marginBottom="@dimen/element_tcl_notice_padding" android:layout_marginEnd="@dimen/element_tcl_notice_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tcl.uicompat.TCLButton android:gravity="center" android:id="@id/btn_positive" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Button_Small" />
+    <Space android:id="@id/space_button" android:layout_width="@dimen/element_tcl_notice_button_gap" android:layout_height="wrap_content" />
+    <com.tcl.uicompat.TCLButton android:gravity="center" android:id="@id/btn_negative" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Button_Small" />
+</LinearLayout>

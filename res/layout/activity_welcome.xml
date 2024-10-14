@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/dimen_160" android:layout_height="@dimen/dimen_160" android:layout_marginTop="@dimen/dimen_324" android:src="@drawable/icon_welcome" android:scaleType="fitXY" />
+    <com.tcl.uicompat.TCLTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_38" android:text="@string/browse_here" style="@style/Text_H3_Medium_Focus" />
+    <com.tcl.uicompat.TCLTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_176" android:text="@string/portal_browser_welcome_tips" style="@style/Text_H2_Normal" />
+    <com.tcl.uicompat.TCLTextView android:id="@id/tv_version_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_184" android:text="@string/portal_browser_welcome_tips" style="@style/Text_Small1_Medium_Disable" />
+</LinearLayout>

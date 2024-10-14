@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.uicompat.TCLItemLarge android:layout_width="fill_parent" android:layout_marginBottom="1.0px" app:ElementDescInfo="Channels: 5" app:ElementLeftIcon="@drawable/img_web_logo_placehoder_normal" style="@style/ElementItemLarge"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

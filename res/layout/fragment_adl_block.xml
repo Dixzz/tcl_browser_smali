@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cs_settings" android:tag="layout/fragment_adl_block_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/portal_home_recycle_view_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_72" android:layout_marginBottom="@dimen/dimen_80" android:text="@string/portal_home_ad_block_title" android:layout_marginStart="@dimen/dimen_116" style="@style/Text_H1_Normal" />
+    <com.tcl.browser.portal.home.view.component.SettingSwitchItemView android:layout_gravity="center_horizontal" android:id="@id/settings_ad_block" android:background="@drawable/bg_setting_item_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2" app:subTitleText="@string/portal_home_ad_block_privacy" app:titleText="@string/portal_home_ad_block_item" />
+</LinearLayout>

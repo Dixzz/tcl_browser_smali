@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:background="@drawable/ic_bubble_arrow_up" android:layout_width="@dimen/dimen_40" android:layout_height="@dimen/dimen_18" />
+    <RelativeLayout android:id="@id/qr_view" android:background="@drawable/bg_search_qr_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dimen_24" android:textColor="#e6ffffff" android:id="@id/scan_title" android:layout_width="@dimen/dimen_360_px" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_36" android:text="@string/portal_home_browse_dialog_phone_title" android:layout_marginStart="@dimen/dimen_32" />
+        <TextView android:textSize="@dimen/dimen_24" android:textColor="#b3ffffff" android:layout_width="@dimen/dimen_360_px" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16" android:text="@string/portal_home_browse_dialog_phone_description" android:layout_below="@id/scan_title" android:layout_alignStart="@id/scan_title" />
+        <ImageView android:id="@id/qr_code" android:layout_width="@dimen/dimen_180" android:layout_height="@dimen/dimen_180" android:layout_margin="@dimen/dimen_12" android:scaleType="centerCrop" android:layout_toEndOf="@id/scan_title" />
+    </RelativeLayout>
+</LinearLayout>

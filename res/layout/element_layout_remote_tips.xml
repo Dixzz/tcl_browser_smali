@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tcl.uicompat.TCLTextView android:layout_gravity="center_vertical" android:id="@id/tv_element_tcl_remote_tips_left" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text_Body3_Normal" />
+    <ImageView android:id="@id/iv_element_tcl_remote_tips" android:layout_width="@dimen/element_tcl_remote_tips_icon_height" android:layout_height="@dimen/element_tcl_remote_tips_icon_height" android:layout_marginLeft="@dimen/element_tcl_remote_tips_margin_left" android:scaleType="fitXY" android:layout_marginStart="@dimen/element_tcl_remote_tips_margin_left" />
+    <com.tcl.uicompat.TCLTextView android:layout_gravity="center_vertical" android:id="@id/tv_element_tcl_remote_tips_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/element_tcl_remote_tips_margin_left" android:layout_marginStart="@dimen/element_tcl_remote_tips_margin_left" style="@style/Text_Body3_Normal" />
+</merge>

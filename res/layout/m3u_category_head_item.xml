@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.uicompat.TCLTextView android:gravity="center" android:id="@id/portal_iptv_list_item_title" android:paddingTop="@dimen/portal_iptv_dimen_7" android:paddingBottom="@dimen/portal_iptv_dimen_7" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/portal_iptv_dimen_10" android:paddingEnd="@dimen/portal_iptv_dimen_10" android:layout_marginEnd="@dimen/portal_iptv_dimen_10" style="@style/Text_Body2_Normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

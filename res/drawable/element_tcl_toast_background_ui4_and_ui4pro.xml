@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/element_toast_background_ui4_pro_color" />
+    <corners android:radius="@dimen/element_corners_size_ui4" />
+</shape>

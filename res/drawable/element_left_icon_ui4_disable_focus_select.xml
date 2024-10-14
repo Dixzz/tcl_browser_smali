@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/element_ic_list_left_icon" />
+    <item android:state_focused="true" android:drawable="@drawable/element_ic_list_left_icon_white_disable_focus" />
+    <item android:state_selected="true" android:drawable="@drawable/element_ic_list_left_icon_white_disable_focus" />
+    <item android:drawable="@drawable/element_ic_button_left_disable_icon" />
+</selector>

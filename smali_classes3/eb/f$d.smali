@@ -1,0 +1,70 @@
+.class public final Leb/f$d;
+.super Ldd/h;
+.source "SourceFile"
+
+# interfaces
+.implements Lcd/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Leb/f;-><init>()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ldd/h;",
+        "Lcd/a<",
+        "Leb/f$d$a;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic this$0:Leb/f;
+
+
+# direct methods
+.method public constructor <init>(Leb/f;)V
+    .locals 0
+
+    iput-object p1, p0, Leb/f$d;->this$0:Leb/f;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Ldd/h;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Leb/f$d$a;
+    .locals 2
+
+    .line 2
+    new-instance v0, Leb/f$d$a;
+
+    iget-object v1, p0, Leb/f$d;->this$0:Leb/f;
+
+    invoke-direct {v0, v1}, Leb/f$d$a;-><init>(Leb/f;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Leb/f$d;->invoke()Leb/f$d$a;
+
+    move-result-object v0
+
+    return-object v0
+.end method

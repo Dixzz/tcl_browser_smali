@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/portal_home_dialog_common_bg" android:layout_width="@dimen/dimen_912" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dimen_32" android:id="@id/portal_home_tv_join_telegram_hint" android:layout_width="@dimen/dimen_480" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_72" android:text="@string/portal_home_join_telegram_group_tips" android:lineSpacingExtra="@dimen/dimen_10" android:layout_marginStart="@dimen/dimen_64" style="@style/Text_Body2_Normal" />
+        <TextView android:textSize="@dimen/dimen_28" android:id="@id/portal_home_scan_tip" android:layout_width="@dimen/dimen_480" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_222" android:text="@string/portal_home_scan_qr_code" android:layout_alignParentTop="true" android:layout_alignStart="@id/portal_home_tv_join_telegram_hint" style="@style/Text_Body2_Normal" />
+        <ImageView android:id="@id/portal_home_iv_qr" android:layout_width="@dimen/dimen_240" android:layout_height="@dimen/dimen_240" android:layout_marginTop="@dimen/dimen_48" android:layout_marginBottom="@dimen/dimen_58" android:src="@drawable/icon_qrcode" android:scaleType="centerInside" android:layout_marginStart="@dimen/dimen_64" android:layout_toEndOf="@id/portal_home_tv_join_telegram_hint" />
+        <com.tcl.uicompat.TCLButton android:textSize="@dimen/dimen_32" android:id="@id/portal_home_btn_ok" android:background="@drawable/portal_home_dialog_btn_selector" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_96" android:layout_marginLeft="@dimen/dimen_64" android:layout_marginRight="@dimen/dimen_64" android:layout_marginBottom="@dimen/dimen_64" android:text="@string/portal_browse_dialog_ok" android:layout_below="@id/portal_home_iv_qr" style="@style/Button_Middle" />
+    </RelativeLayout>
+</FrameLayout>

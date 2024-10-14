@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="?element_tcl_color_operation_warning_start" android:endColor="?element_tcl_color_operation_warning_end" android:angle="135.0" android:type="linear" />
+    <corners android:radius="?element_tcl_corners_size" />
+</shape>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_ua_custom_item" android:clipToPadding="false" layout="@layout/ua_switch_list_item" />
+    <LinearLayout android:id="@id/layout_ua_edit" android:background="@drawable/bg_ua_item_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_32">
+        <EditText android:textSize="16.0sp" android:textColorHint="#66ffffff" android:id="@id/ua_edit_text" android:background="@drawable/bg_ua_edit_selector" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_100" android:layout_margin="@dimen/dimen_16" android:hint="@string/portal_browse_ua_edit_hint" android:maxLength="300" android:inputType="text" android:textAllCaps="false" android:drawableEnd="@drawable/scan_button" android:paddingStart="@dimen/dimen_32" android:importantForAutofill="no" style="@style/Text_Body2_Weak" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/activity_subscription_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dimen_56" android:textColor="#b3ffffff" android:id="@id/subscription_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_72" android:layout_marginBottom="@dimen/dimen_46" android:text="@string/portal_home_all_subscriptions" android:layout_marginStart="@dimen/dimen_116" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_subscription" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_80" android:layout_below="@id/subscription_title" android:layout_alignStart="@id/subscription_title" />
+    <ViewStub android:id="@id/vs_empty_subscription" android:visibility="gone" android:layout="@layout/layout_empty_subscription_page" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.tcl.uicompat.TCLLoading android:layout_gravity="center" android:id="@id/portal_loading_anim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

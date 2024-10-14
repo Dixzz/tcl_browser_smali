@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/element_tcl_tag_bg_disabled_color" />
+            <corners android:radius="@dimen/element_tcl_navigation_item_corners_size" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/element_primary_white_90" />
+            <corners android:radius="@dimen/element_tcl_navigation_item_corners_size" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="@color/element_primary_white_90" />
+            <corners android:radius="@dimen/element_tcl_navigation_item_corners_size" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/element_tcl_tag_bg_normal_color" />
+            <corners android:radius="@dimen/element_tcl_navigation_item_corners_size" />
+        </shape>
+    </item>
+</selector>

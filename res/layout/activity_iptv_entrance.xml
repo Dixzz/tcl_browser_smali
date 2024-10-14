@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/book_mark" android:tag="layout/activity_iptv_entrance_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dimen_116"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tcl.uicompat.TCLTextView android:id="@id/portal_home_view_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_80" android:text="@string/portal_iptv_player" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text_H1_Normal" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/tb_add_iptv" android:background="@color/portal_iptv_enter_bg" android:focusable="true" android:layout_width="@dimen/dimen_544" android:layout_height="@dimen/dimen_385">
+            <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/ic_add_new_playlist" android:focusable="false" android:layout_width="@dimen/dimen_116" android:layout_height="@dimen/dimen_116" android:layout_marginTop="@dimen/portal_iptv_dimen_58" />
+            <com.tcl.uicompat.TCLTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:focusable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:text="@string/portal_iptv_add_playlist_tips" style="@style/Text_Body1_Normal" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/tb_wathc_iptv" android:background="@color/portal_iptv_enter_bg" android:focusable="true" android:layout_width="@dimen/dimen_544" android:layout_height="@dimen/dimen_385" android:layout_marginStart="@dimen/dimen_44">
+            <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/ic_watch_playlist" android:focusable="false" android:layout_width="@dimen/dimen_116" android:layout_height="@dimen/dimen_116" android:layout_marginTop="@dimen/portal_iptv_dimen_58" />
+            <com.tcl.uicompat.TCLTextView android:ellipsize="marquee" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:focusable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:text="@string/portal_iptv_watch_your_playlist" style="@style/Text_Body1_Normal" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

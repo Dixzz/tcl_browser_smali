@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/bookmark" app:startDestination="@id/webPageFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="WebPageFragment" android:name="com.tcl.browser.iptv.fragment.WebPageFragment" android:id="@id/webPageFragment" />
+    <fragment android:label="FavoriteIptvFragment" android:name="com.tcl.browser.iptv.fragment.FavoriteIptvFragment" android:id="@id/favoriteIptvFragment" />
+    <fragment android:label="WebVideoFragment" android:name="com.tcl.browser.iptv.fragment.WebVideoFragment" android:id="@id/webVideoFragment" />
+</navigation>

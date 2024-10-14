@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_network_error" android:layout_width="@dimen/dimen_840" android:layout_height="@dimen/dimen_540" android:src="@drawable/img_network_error" />
+    <TextView android:textSize="@dimen/dimen_32" android:textColor="#b3ffffff" android:id="@id/text_network_error_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_428" android:text="@string/portal_home_network_error_tips" android:layout_centerHorizontal="true" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_40" android:layout_below="@id/text_network_error_tip" android:layout_centerHorizontal="true">
+        <com.tcl.uicompat.TCLButton android:textSize="@dimen/dimen_32" android:ellipsize="marquee" android:id="@id/btn_check_network" android:background="@drawable/portal_home_dialog_btn_selector" android:layout_width="@dimen/dimen_320" android:layout_height="@dimen/dimen_96" android:layout_marginTop="@dimen/dimen_6" android:layout_marginBottom="@dimen/dimen_6" android:text="@string/portal_home_check_network" android:singleLine="true" android:layout_marginStart="@dimen/dimen_16" android:layout_marginEnd="@dimen/dimen_50" style="@style/Button_Middle" />
+        <com.tcl.uicompat.TCLButton android:textSize="@dimen/dimen_32" android:ellipsize="marquee" android:id="@id/btn_retry" android:background="@drawable/portal_home_dialog_btn_selector" android:layout_width="@dimen/dimen_320" android:layout_height="@dimen/dimen_96" android:layout_marginTop="@dimen/dimen_6" android:layout_marginBottom="@dimen/dimen_6" android:text="@string/portal_home_refresh_data" android:singleLine="true" android:layout_marginEnd="@dimen/dimen_16" style="@style/Button_Middle" />
+    </LinearLayout>
+</RelativeLayout>

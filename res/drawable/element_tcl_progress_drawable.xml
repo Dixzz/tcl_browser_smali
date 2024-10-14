@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/element_progress_background" />
+    <item android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <shape>
+                <gradient android:startColor="?element_tcl_btn_background_focus_color_start" android:endColor="?element_tcl_btn_background_focus_color_end" android:angle="?element_tcl_btn_background_color_angle" android:type="linear" />
+                <corners android:radius="@dimen/element_progress_corners_size" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

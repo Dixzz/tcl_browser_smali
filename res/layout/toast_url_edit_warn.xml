@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/bg_edit_warn_toast" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/ic_warn" android:layout_width="@dimen/dimen_64" android:layout_height="@dimen/dimen_64" android:layout_marginTop="@dimen/dimen_24" android:layout_marginBottom="@dimen/dimen_24" android:layout_marginStart="@dimen/dimen_56" />
+    <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/portal_iptv_add_error_url_tips" android:layout_marginStart="@dimen/dimen_32" android:layout_marginEnd="@dimen/dimen_70" style="@style/Text_Body2_Normal" />
+</LinearLayout>

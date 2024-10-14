@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout android:layout_gravity="center_horizontal" android:focusable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:blur_shape="roundRect" app:border_circle_radius="?element_tcl_corners_size" app:glow_type="button" app:need_fill_content="false" app:need_focus="false" app:need_glow_anim="?element_tcl_need_breath" app:need_once_glow="?element_tcl_once_glow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

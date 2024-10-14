@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_show_text_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tcl.uicompat.TCLTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_96" android:layout_centerHorizontal="true" style="@style/Text_H2_Medium_Normal" />
+    <com.tcl.uicompat.TCLTextView android:id="@id/content" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_86" android:layout_below="@id/title" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/dimen_22" android:layout_marginStart="@dimen/dimen_116" android:layout_marginEnd="@dimen/dimen_116" style="@style/Text_Body2_Weak" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_48" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dimen_530" android:layout_marginEnd="@dimen/dimen_530">
+        <com.tcl.uicompat.TCLButton android:id="@id/button_on" android:text="@string/portal_browse_exo_subtitles_on" android:layout_marginEnd="@dimen/dimen_48" style="@style/Button_Large" />
+        <com.tcl.uicompat.TCLButton android:id="@id/button_off" android:text="@string/portal_browse_exo_subtitles_off" style="@style/Button_Large" />
+    </LinearLayout>
+</RelativeLayout>

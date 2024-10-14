@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:tag="layout/activity_language_settings_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tcl.uicompat.TCLTextView android:id="@id/portal_home_recycle_view_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_80" android:text="@string/portal_home_setting_language" android:layout_marginStart="@dimen/dimen_116" style="@style/Text_H1_Normal" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/switch_recyclerview" android:paddingBottom="@dimen/dimen_4" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_40" android:layout_marginBottom="@dimen/dimen_40" android:layout_below="@id/portal_home_recycle_view_tv_title" android:paddingStart="@dimen/dimen_64" android:paddingEnd="@dimen/dimen_64" android:layout_marginStart="@dimen/dimen_116" android:layout_marginEnd="@dimen/dimen_116" />
+    <com.tcl.uicompat.TCLLoading android:id="@id/portal_loading_anim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

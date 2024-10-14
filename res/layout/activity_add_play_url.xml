@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/activity_add_play_url_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/portal_iptv_iv_logo" android:background="@drawable/ic_add_new_playlist" android:layout_width="240.0px" android:layout_height="240.0px" android:layout_marginTop="@dimen/portal_iptv_dimen_164" android:layout_centerHorizontal="true" />
+    <com.tcl.uicompat.TCLTextView android:textSize="18.0sp" android:textColor="#b3ffffff" android:id="@id/portal_iptv_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/portal_iptv_dimen_27" android:text="@string/portal_iptv_add_playlist_tips" android:layout_below="@id/portal_iptv_iv_logo" android:layout_centerHorizontal="true" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/portal_iptv_dimen_55" android:layout_below="@id/portal_iptv_tv_title" android:layout_centerHorizontal="true">
+        <com.tcl.uicompat.TCLButton android:id="@id/portal_iptv_btn_enter" android:background="@drawable/bg_delete_all_button_selector" android:layout_width="@dimen/portal_iptv_dimen_190" android:layout_height="wrap_content" android:text="@string/portal_iptv_enter_m3u_url" style="@style/Button_Middle" />
+        <com.tcl.uicompat.TCLButton android:id="@id/portal_iptv_btn_cancel" android:background="@drawable/bg_delete_all_button_selector" android:layout_width="@dimen/portal_iptv_dimen_190" android:layout_height="wrap_content" android:text="@string/portal_iptv_enter_xtream" android:layout_marginStart="18.0dip" style="@style/Button_Middle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_lottie" android:background="?element_background_picture" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_view" android:layout_width="@dimen/dimen_240" android:layout_height="@dimen/dimen_180" app:lottie_fileName="download.json" app:lottie_loop="true" />
+        <com.tcl.uicompat.TCLTextView android:id="@id/portal_lottie_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_52" android:text="@string/portal_iptv_lottie_text" style="@style/Text_Body1_Normal" />
+    </LinearLayout>
+</RelativeLayout>

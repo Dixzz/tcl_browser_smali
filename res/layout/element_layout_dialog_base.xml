@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:padding="@dimen/element_tcl_dialog_padding_optimize_clip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_element_dialog_base_background" android:background="@drawable/element_dialog_background" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/element_tcl_dialog_width" android:layout_height="wrap_content" android:minHeight="@dimen/element_tcl_dialog_height">
+        <com.tcl.uicompat.TCLTextView android:textSize="@dimen/element_dialog_title_text_size" android:ellipsize="end" android:id="@id/tv_element_dialog_base_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_dialog_padding_vertical" android:minHeight="@dimen/element_dialog_title_height" android:singleLine="true" android:layout_marginStart="@dimen/element_tcl_dialog_padding_horizontal" style="@style/Text_Body1_Medium_70" />
+        <FrameLayout android:id="@id/rl_element_dialog_content" android:visibility="visible" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/element_dialog_content_ui_default_min_height" android:layout_marginStart="@dimen/element_tcl_dialog_padding_horizontal" android:layout_marginEnd="@dimen/element_tcl_dialog_padding_horizontal">
+            <com.tcl.uicompat.TCLTextView android:id="@id/tv_element_dialog_content" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Text_Body2_70" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_element_dialog_btn_view_group" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/element_tcl_dialog_padding_vertical">
+            <com.tcl.uicompat.TCLButton android:id="@id/btn_element_dialog_left" android:visibility="gone" android:layout_width="@dimen/element_middle_btn_min_width" android:layout_height="@dimen/element_middle_btn_min_height" style="@style/Button_Middle" />
+            <com.tcl.uicompat.TCLButton android:id="@id/btn_element_dialog_right" android:visibility="gone" android:layout_width="@dimen/element_middle_btn_min_width" android:layout_height="@dimen/element_middle_btn_min_height" android:layout_marginLeft="@dimen/element_dialog_right_btn_margin_left" android:layout_marginStart="@dimen/element_dialog_right_btn_margin_left" style="@style/Button_Middle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

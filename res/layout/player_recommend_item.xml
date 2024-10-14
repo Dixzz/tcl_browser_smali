@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout android:id="@id/portal_player_layout_recommend_item" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen_40" app:glow_radius="@dimen/dimen_10" app:glow_type="round_border" app:need_border="true" app:need_child_view_size="true" app:scale_anim_end_value="1.08"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_recommend_item" android:layout_width="@dimen/dimen_392" android:layout_height="@dimen/dimen_220" android:scaleType="centerCrop" />
+    <com.tcl.uicompat.TCLTextView android:ellipsize="marquee" android:id="@id/tv_content" android:layout_width="@dimen/dimen_392" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8" android:singleLine="true" android:layout_below="@id/iv_recommend_item" android:marqueeRepeatLimit="marquee_forever" style="@style/Text_Body2_Normal" />
+</com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.browser.portal.browse.player.WebStyledPlayerView android:id="@id/player_view" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" app:keep_content_on_player_reset="false" app:resize_mode="fit" app:show_next_button="false" app:show_previous_button="false" app:show_subtitle_button="true" app:show_timeout="5000" app:surface_type="surface_view" app:use_controller="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="@color/element_text_color_disable" />
+    <item android:state_focused="true" android:color="@color/element_text_color_focus" />
+    <item android:state_selected="true" android:color="@color/element_text_color_focus" />
+    <item android:color="@color/element_tcl_navigation_item_text_middle_focus_color" android:state_activated="true" />
+    <item android:color="@color/element_tcl_navigation_item_text_normal_color" />
+</selector>

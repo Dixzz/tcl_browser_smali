@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/activity_main_page_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tcl.browser.portal.home.view.search.SearchBarView android:id="@id/search_bar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_bar">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="start" android:id="@id/rv_channels" android:paddingTop="@dimen/dimen_42" android:focusable="false" android:layout_width="@dimen/dimen_120" android:layout_height="wrap_content" />
+            <View android:background="@drawable/line_white_gradient" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.tcl.browser.portal.home.view.BrowseHereViewPager android:id="@id/viewpager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="start" android:id="@id/rv_expand_channel" android:background="@drawable/bg_expand_channel_ltr" android:paddingTop="@dimen/dimen_174" android:layout_width="@dimen/dimen_720" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_minus_148" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+    <ViewStub android:id="@id/vs_no_network" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_240" android:layout_centerHorizontal="true" />
+    <com.tcl.uicompat.TCLLoading android:layout_gravity="center" android:id="@id/loading_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

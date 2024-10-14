@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/portal_home_layout_recycle_item" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_280"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/ll_search_title" android:focusable="true" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tcl.uicompat.TCLTextView android:textSize="@dimen/dimen_28" android:ellipsize="end" android:id="@id/tv_search_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Text_Body3_Medium_Normal" />
+        <ImageView android:id="@id/iv_search_more" android:layout_width="@dimen/dimen_44" android:layout_height="@dimen/dimen_44" android:src="@drawable/icon_search_focus_normal" android:scaleType="centerCrop" android:layout_marginStart="@dimen/dimen_12" />
+    </LinearLayout>
+    <androidx.leanback.widget.HorizontalGridView android:id="@id/hg_recommend" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:focusOutEnd="true" app:focusOutFront="true" app:focusOutSideEnd="true" app:focusOutSideStart="true" />
+</LinearLayout>

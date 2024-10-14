@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/mask_media_detail_page" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/media_detail_info_view" layout="@layout/layout_media_detail_info" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:id="@id/source_part_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_572" android:layout_marginStart="@dimen/dimen_116" style="@style/Text_Body3_Medium_Normal" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/movie_playback_source_list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16" android:layout_below="@id/source_part_title" android:paddingEnd="@dimen/dimen_40" android:layout_marginStart="@dimen/dimen_116" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:id="@id/movie_recommendation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_56" android:layout_marginBottom="@dimen/dimen_16" android:layout_below="@id/movie_playback_source_list" android:layout_alignStart="@id/source_part_title" style="@style/Text_Body3_Medium_Normal" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/movie_recommendation_list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_80" android:layout_below="@id/movie_recommendation_title" android:paddingEnd="@dimen/dimen_40" android:layout_marginStart="@dimen/dimen_116" />
+        <com.tcl.uicompat.TCLLoading android:layout_gravity="center" android:id="@id/portal_loading_anim" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

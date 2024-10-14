@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_checked="true" android:drawable="@drawable/element_ic_check_box_ui5_selected_focus" />
+    <item android:state_focused="false" android:state_checked="true" android:drawable="@drawable/element_ic_check_box_ui5_selected_normal" />
+    <item android:state_focused="true" android:state_checked="false" android:drawable="@drawable/element_ic_check_box_ui5_unselected_focus" />
+    <item android:state_focused="false" android:state_checked="false" android:drawable="@drawable/element_ic_check_box_ui5_unselected_normal" />
+    <item android:drawable="@drawable/element_ic_check_box_ui5_unselected_normal" />
+</selector>

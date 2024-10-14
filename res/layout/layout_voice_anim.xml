@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/channel_spots_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tcl.voice.VoiceAnimationView android:id="@id/va_voice" android:layout_width="@dimen/dimen_650" android:layout_height="@dimen/dimen_120" />
+    <com.tcl.uicompat.TCLTextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_32" android:text="@string/portal_home_voice_listening" style="@style/Text_Body2_Medium_Focus" />
+    <com.tcl.uicompat.TCLTextView android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8" android:text="@string/portal_home_voice_listening_description" style="@style/Text_Body2_Weak" />
+</LinearLayout>

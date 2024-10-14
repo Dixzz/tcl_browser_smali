@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen_40" app:glow_radius="@dimen/dimen_12" app:glow_type="round_border" app:need_border="true" app:need_child_view_size="true" app:scale_anim_end_value="1.04"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/movie_recommendation_poster" android:layout_width="@dimen/dimen_248" android:layout_height="@dimen/dimen_360_px" android:scaleType="fitXY" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/movie_title" android:layout_width="@dimen/dimen_248" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8" android:singleLine="true" android:layout_below="@id/movie_recommendation_poster" android:marqueeRepeatLimit="marquee_forever" />
+</com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout>

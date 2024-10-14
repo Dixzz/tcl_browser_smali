@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout android:id="@id/layout_positive_icon_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/element_tcl_notice_button_icon_margin_start" android:layout_marginTop="@dimen/element_tcl_notice_padding" android:layout_toLeftOf="@id/layout_negative_icon_button" app:blur_shape="oval">
+        <ImageView android:id="@id/iv_positive" android:duplicateParentState="true" android:layout_width="@dimen/element_tcl_notice_button_icon_size" android:layout_height="@dimen/element_tcl_notice_button_icon_size" android:scaleType="fitCenter" />
+    </com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout>
+    <com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout android:id="@id/layout_negative_icon_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/element_tcl_notice_button_icon_margin_start" android:layout_marginTop="@dimen/element_tcl_notice_padding" android:layout_marginRight="@dimen/element_tcl_notice_padding" android:layout_alignParentRight="true" android:layout_marginStart="@dimen/element_tcl_notice_button_icon_margin_start" android:layout_marginEnd="@dimen/element_tcl_notice_padding" app:blur_shape="oval">
+        <ImageView android:id="@id/iv_negative" android:duplicateParentState="true" android:layout_width="@dimen/element_tcl_notice_button_icon_size" android:layout_height="@dimen/element_tcl_notice_button_icon_size" android:scaleType="fitCenter" />
+    </com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout>
+</merge>

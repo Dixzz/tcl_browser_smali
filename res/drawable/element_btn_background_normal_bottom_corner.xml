@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomLeftRadius="?element_tcl_corners_size" android:bottomRightRadius="?element_tcl_corners_size" />
+    <solid android:color="?element_tcl_btn_background_normal_color" />
+</shape>

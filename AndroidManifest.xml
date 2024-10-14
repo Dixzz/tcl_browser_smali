@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.tcl.browser" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.providers.tv.permission.READ_EPG_DATA"/>
+    <uses-permission android:name="com.android.providers.tv.permission.WRITE_EPG_DATA"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <queries>
+        <package android:name="com.google.android.webview"/>
+        <package android:name="android.speech.action.RECOGNIZE_SPEECH"/>
+        <intent>
+            <action android:name="android.speech.action.RECOGNIZE_SPEECH"/>
+        </intent>
+    </queries>
+    <queries>
+        <package android:name="android.speech.action.RECOGNIZE_SPEECH"/>
+        <intent>
+            <action android:name="android.speech.action.RECOGNIZE_SPEECH"/>
+        </intent>
+    </queries>
+    <uses-feature android:name="android.hardware.faketouch" android:required="false"/>
+    <uses-feature android:name="android.software.leanback" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.tcl.ttvs.deviceauthen.permission.READ_DNUM"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:banner="@drawable/banner" android:icon="@mipmap/ic_launcher" android:label="@string/browse_here" android:largeHeap="true" android:name="com.tcl.browser.MainApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <uses-library android:name="com.tcl.tvmanager" android:required="false"/>
+        <uses-library android:name="com.tcl.deviceinfo" android:required="false"/>
+        <meta-data android:name="firebase_performance_logcat_enabled" android:value="true"/>
+        <meta-data android:name="google_analytics_default_allow_analytics_storage" android:value="true"/>
+        <meta-data android:name="google_analytics_default_allow_ad_storage" android:value="true"/>
+        <meta-data android:name="google_analytics_default_allow_ad_user_data" android:value="true"/>
+        <meta-data android:name="google_analytics_default_allow_ad_personalization_signals" android:value="true"/>
+        <activity android:configChanges="layoutDirection|locale" android:launchMode="singleTask" android:name="com.tcl.browser.portal.home.activity.MainPageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme"/>
+        <activity android:exported="true" android:name="com.tcl.browser.portal.home.activity.HomePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.tcl.browser.HOME_PAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.APP_BROWSER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.tcl.browser.portal.browse.activity.BrowsePageActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.tcl.browser.portal.browse.activity.PlayWebVideoActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.tcl.browser.player.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:scheme="asset"/>
+                <data android:scheme="file"/>
+                <data android:scheme="ssai"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="rtmp"/>
+                <data android:scheme="rtmpe"/>
+                <data android:scheme="rtmps"/>
+                <data android:scheme="rtp"/>
+                <data android:scheme="rtsp"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmst"/>
+                <data android:scheme="mmsh"/>
+                <data android:scheme="httplive"/>
+                <data android:scheme="udp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="application/sdp"/>
+                <data android:mimeType="application/mp4"/>
+                <data android:mimeType="application/vnd.apple.mpegurl"/>
+                <data android:mimeType="application/vnd.apple.mpegurl.audio"/>
+                <data android:mimeType="application/vnd.rn-realmedia"/>
+                <data android:mimeType="application/vnd.rn-realmedia-vbr"/>
+                <data android:mimeType="application/mpegurl"/>
+                <data android:mimeType="application/x-mpegurl"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="audio/mpegurl"/>
+                <data android:mimeType="audio/x-mpegurl"/>
+                <data android:mimeType="application/x-shockwave-flash"/>
+                <data android:mimeType="application/x-bittorrent"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.tcl.browser.portal.home.activity.GuideDownloadMCActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.iptv.activity.PlayIptvActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.iptv.activity.WatchPlayListActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.iptv.activity.M3uCategoryListActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.iptv.activity.IptvContentListActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.iptv.activity.IptvEntranceActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.iptv.activity.BookMarkActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.portal.home.activity.AboutActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.portal.home.activity.LegalActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.portal.home.activity.BrowseHistoryActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.portal.home.activity.StartActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.tcl.browser.portal.home.activity.SettingsActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme"/>
+        <activity android:exported="false" android:name="com.tcl.browser.portal.home.activity.LanguageSettingsActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme"/>
+        <activity android:exported="false" android:name="com.tcl.browser.portal.home.activity.NinjaModelActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme"/>
+        <activity android:exported="false" android:name="com.tcl.browser.portal.home.activity.SubscriptionActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.tcl.browser.portal.home.activity.SearchForKeywordActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme">
+            <intent-filter>
+                <data android:host="com.tcl.browser" android:path="/home" android:scheme="browsehere"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.tcl.browser.iptv.activity.AddPlayUrlActivity" android:screenOrientation="landscape" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:exported="false" android:name="com.tcl.browser.iptv.activity.SearchM3uActivity" android:screenOrientation="landscape"/>
+        <receiver android:exported="true" android:name="com.tcl.browser.portal.home.receiver.GetRestrictionsReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_RESTRICTION_ENTRIES"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.tcl.browser.portal.home.receiver.InitializeChannelsReceiver">
+            <intent-filter>
+                <action android:name="android.media.tv.action.INITIALIZE_PROGRAMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.tcl.browser.portal.home.launcher.sync.SyncChannelJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.tcl.browser.portal.home.launcher.sync.SyncNsfwJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.tcl.browser.portal.home.launcher.sync.SyncProgramsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.tcl.browser.crash_tools.KillSelfService"/>
+        <provider android:authorities="com.tcl.browser" android:exported="true" android:name="com.tcl.voice.overall.VideoProvider" android:process=":browsehere.video">
+            <path-permission android:pathPrefix="/search" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+        </provider>
+        <meta-data android:name="android.app.default_searchable" android:value=".portal.browse.activity.MediaDetailPageActivity"/>
+        <activity android:exported="true" android:name="com.tcl.browser.portal.browse.activity.MediaDetailPageActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.tcl.browser.utils.common.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.tcl.ff.component.utils.common.UtilsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.bundled.internal.ThickLanguageIdRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.internal.LanguageIdRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.tcl.browser.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.tcl.browser.mlkitinitprovider" android:exported="false" android:initOrder="99" android:name="com.google.mlkit.common.internal.MlKitInitProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.tcl.browser.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    </application>
+</manifest>

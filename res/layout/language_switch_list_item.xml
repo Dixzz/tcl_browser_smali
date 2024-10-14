@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/bg_setting_item_selector" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:gravity="start|center" android:id="@id/user_agent_option" android:paddingTop="@dimen/dimen_38" android:paddingBottom="@dimen/dimen_38" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:textAllCaps="false" android:layout_marginStart="@dimen/dimen_32" android:layout_marginEnd="@dimen/dimen_162" android:layout_toStartOf="@id/user_agent_switch_btn" style="@style/Text_Body2_Normal" />
+    <ImageView android:enabled="false" android:id="@id/user_agent_switch_btn" android:layout_width="@dimen/dimen_44" android:layout_height="@dimen/dimen_44" android:src="@drawable/language_selected_item_selector" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_40" android:layout_alignParentEnd="true" />
+</RelativeLayout>

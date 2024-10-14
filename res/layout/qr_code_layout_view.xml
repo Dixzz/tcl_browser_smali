@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/element_dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tcl.uicompat.TCLTextView android:textSize="@dimen/dimen_24" android:id="@id/textView2" android:layout_width="@dimen/dimen_360_px" android:layout_height="wrap_content" android:text="@string/portal_home_browse_dialog_phone_title" android:layout_alignTop="@id/portal_home_browse_dialog_phone_img_qr" android:layout_marginStart="@dimen/dimen_32" style="@style/Text_Body1_Medium_Normal" />
+    <com.tcl.uicompat.TCLTextView android:textSize="@dimen/dimen_24" android:layout_width="@dimen/dimen_360_px" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16" android:text="@string/portal_home_browse_dialog_phone_description" android:maxLines="2" android:layout_below="@id/textView2" android:layout_alignStart="@id/textView2" app:ElementLineHeight="@dimen/dimen_2" app:ElementNeedLineHeight="true" style="@style/Text_Body3_Weak" />
+    <ImageView android:id="@id/portal_home_browse_dialog_phone_img_qr" android:layout_width="@dimen/dimen_200" android:layout_height="@dimen/dimen_200" android:layout_marginTop="@dimen/dimen_8" android:layout_marginBottom="@dimen/dimen_8" android:layout_marginStart="@dimen/dimen_38" android:layout_alignParentEnd="true" />
+</RelativeLayout>

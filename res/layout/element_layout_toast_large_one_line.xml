@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_element_toast_root" android:background="@drawable/element_dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/element_toast_min_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="?element_tcl_toast_background_padding_left" android:paddingRight="?element_tcl_toast_background_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="?element_tcl_toast_background_padding_left" android:paddingEnd="?element_tcl_toast_background_padding_right">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_element_toast_icon" android:visibility="gone" android:layout_width="@dimen/element_toast_icon_width" android:layout_height="@dimen/element_toast_icon_height" android:layout_marginLeft="@dimen/element_toast_icon_margin_left" android:layout_marginRight="@dimen/element_toast_icon_margin_right" android:scaleType="fitXY" android:contentDescription="@null" android:layout_marginStart="@dimen/element_toast_icon_margin_left" android:layout_marginEnd="@dimen/element_toast_icon_margin_right" />
+            <com.tcl.uicompat.TCLTextView android:ellipsize="end" android:id="@id/tv_element_toast_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_toast_text_margin_top" android:layout_marginBottom="@dimen/element_toast_text_margin_bottom" android:singleLine="true" android:lineSpacingExtra="0.0px" style="@style/Text_Body2_70" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

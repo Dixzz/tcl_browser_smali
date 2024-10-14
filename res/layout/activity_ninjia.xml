@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_ninjia_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dimen_100" android:layout_height="@dimen/dimen_100" android:layout_marginTop="@dimen/dimen_184" android:src="@drawable/ic_ninja_on_normal" />
+    <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_32" android:text="@string/portal_home_ninjia_title" style="@style/Text_H2_Medium_Normal" />
+    <com.tcl.uicompat.TCLTextView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_40" android:text="@string/portal_home_ninjia_dec" android:layout_marginStart="@dimen/dimen_404" android:layout_marginEnd="@dimen/dimen_404" app:ElementLineHeight="@dimen/dimen_16" style="@style/Text_Body2_Weak" />
+    <com.tcl.uicompat.TCLButton android:layout_gravity="center_horizontal" android:id="@id/portal_home_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_68" android:text="@string/portal_browse_dialog_ok" style="@style/Button_Large" />
+</LinearLayout>

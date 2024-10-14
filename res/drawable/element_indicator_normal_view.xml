@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval" android:useLevel="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/element_tcl_indicator_normal_color" />
+    <size android:height="@dimen/element_tcl_indicator_size" android:width="@dimen/element_tcl_indicator_size" />
+</shape>

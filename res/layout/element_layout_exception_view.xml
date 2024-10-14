@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_image" android:layout_width="@dimen/element_tcl_exception_view_image_size" android:layout_height="@dimen/element_tcl_exception_view_image_size" android:scaleType="fitXY" />
+    <com.tcl.uicompat.TCLTextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_exception_view_title_margin_top" style="@style/Text_Body1_70" />
+    <ViewStub android:id="@id/vs_desc" android:layout="@layout/element_layout_exception_view_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_exception_view_desc_margin_top" />
+    <ViewStub android:id="@id/vs_button" android:layout="@layout/element_layout_exception_view_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/element_tcl_exception_view_button_margin_top" />
+</merge>

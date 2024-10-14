@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_setting_item_selector" android:layout_width="@dimen/dimen_1400" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bookmark_icon" android:layout_width="@dimen/dimen_86" android:layout_height="@dimen/dimen_48" android:layout_marginTop="@dimen/dimen_44" android:layout_marginBottom="@dimen/dimen_44" android:scaleType="centerCrop" android:layout_marginStart="@dimen/dimen_40" android:layout_marginVertical="@dimen/dimen_44" />
+    <TextView android:ellipsize="marquee" android:id="@id/bookmark_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimen_900" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_24" android:layout_toEndOf="@id/bookmark_icon" style="@style/Text_Body1_Normal" />
+    <com.tcl.uicompat.TCLButton android:id="@id/btn_delete" android:background="@drawable/bg_delete_button_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/portal_home_recycle_btn_delete" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_40" android:layout_alignParentEnd="true" style="@style/Button_Small" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_main_page_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_columns" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_25" android:layout_marginBottom="@dimen/dimen_50" android:layout_marginStart="@dimen/dimen_38" />
+    <ViewStub android:id="@id/vs_empty_fragment" android:visibility="gone" android:layout="@layout/layout_data_load_failure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.tcl.uicompat.TCLLoading android:id="@id/loading_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

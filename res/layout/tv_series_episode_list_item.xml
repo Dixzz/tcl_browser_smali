@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/dimen_392" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimen_40" app:glow_radius="@dimen/dimen_12" app:glow_type="round_border" app:need_border="true" app:need_child_view_size="true" app:scale_anim_end_value="1.04"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/episode_poster" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_220" android:layout_marginBottom="@dimen/dimen_16" android:scaleType="centerCrop" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/episode_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/episode_poster" android:marqueeRepeatLimit="marquee_forever" />
+    <TextView android:textSize="12.0sp" android:textColor="#66ffffff" android:id="@id/episode_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/episode_title" />
+</com.tcl.ff.component.animer.glow.view.AllCellsGlowLayout>
