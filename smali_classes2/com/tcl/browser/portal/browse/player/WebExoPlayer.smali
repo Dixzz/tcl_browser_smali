@@ -189,6 +189,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v15, v13, v0, v14}, Lx3/b;-><init>(Landroid/content/Context;Lx3/c$a;Lx3/c$b;)V
+    const/4 v15, 0x0
 
     .line 8
     iput-object v15, v12, Lcom/tcl/browser/portal/browse/player/WebExoPlayer;->mAdsLoader:Lx3/b;
